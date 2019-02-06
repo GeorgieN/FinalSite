@@ -1,0 +1,96 @@
+
+body {
+  background-image: url("back1.gif");
+  background-size: 100%;
+  overflow-y: hidden;
+}
+
+marquee {
+  width:100%;
+  z-index: 2;
+  position: absolute;
+  top: 710px;
+  font-family: terminalg;
+  font-size:5rem;
+  color: blue;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2vw;
+  padding: 10px;
+}
+.grid-item {
+  grid-column-end: span 1;
+  background-color:#9ACD32;
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+  overflow: scroll;
+  height:600px;
+}
+
+@font-face {
+  font-family:"terminalg";
+  src: url(fonts/terminalg.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+
+p{
+  font-family: helvetica;
+  font-size:1rem;
+  line-height: 150%;
+  color: blue;
+}
+
+h1{
+  font-family: terminalg;
+  font-size:1.5rem;
+  line-height: 150%;
+  color: blue;
+}
+
+h2{
+  font-family: terminalg;
+  font-size:1rem;
+  line-height: 150%;
+  color: blue;
+}
+
+
+@media only screen and (max-width:880px){
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 4vw;
+    margin-top: 6vw;
+}
+marquee {
+  width:100%;
+  z-index: 2;
+  position: absolute;
+  top: 2vw;
+  font-family: terminalg;
+  font-size:3rem;
+  color: blue;
+}
+}
+
+@media only screen and (max-width:480px){
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 4vw;
+    margin-top: 6vw;
+}
+marquee {
+  width:100%;
+  z-index: 2;
+  position: absolute;
+  top: 2vw;
+  font-family: terminalg;
+  font-size:3rem;
+  color: blue;
+}
+}

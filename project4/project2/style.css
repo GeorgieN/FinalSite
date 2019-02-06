@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  background-color: #7b2fdb;
+
+}
+
+@font-face {
+  font-family:"misterpixel";
+  src: url(misterpixel.otf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+
+#myProgress {
+  width: 100;
+  background-color: #ddd;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: #70eea5;
+  margin-top: 30%;
+  border-style: solid;
+}
+
+
+  button{
+    font-family:misterpixel;
+    font-size: 1em;
+      height:40px;
+      width:100px;
+      margin: -20px -50px;
+      position:relative;
+      top:50%;
+      left:50%;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+button:hover {
+  background-color: #555555;
+  color: white;
+}

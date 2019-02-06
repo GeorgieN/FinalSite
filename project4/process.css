@@ -1,0 +1,32 @@
+
+  body {
+	   background: url('back1.gif');
+	}
+
+  * {
+    box-sizing: border-box;
+  }
+
+
+
+  .column {
+    flex: 33.33%;
+    text-align: center;
+  }
+
+  @font-face {
+    font-family:"terminalg";
+    src: url(fonts/terminalg.ttf);
+    font-style: normal;
+    font-weight: 100;
+  }
+
+
+  p{
+    font-family: terminalg;
+    font-weight: 100;
+    font-size: 6em;
+  	color:#9ACD32;
+    text-align: center;
+    padding-left: 2vw;
+  }

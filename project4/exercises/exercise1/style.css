@@ -1,0 +1,155 @@
+
+body {
+margin:0;
+font-family: 'Helvetica', sans-serif;
+color:black;
+font-size: 10px;
+width: 100%;
+line-height:140%;
+text-align: left;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+
+h1{
+  font-family: 'Helvetica', sans-serif;
+  color:black;
+  font-size: 10px;
+  line-height: 20px;
+  text-align: right;
+  position: relative;
+  top:135px;
+  right:145px;
+}
+
+h2{
+  font-family: 'Helvetica', sans-serif;
+  color:black;
+  font-size:16px;
+  width: 100%;
+  line-height:60%;
+}
+
+h3{
+  font-family: 'Helvetica', sans-serif;
+  color:black;
+  font-size: 10px;
+  width: 100%;
+  line-height:140%;
+  text-align: right;
+  margin-left: -140px;
+  position: relative;
+  top:24px;
+  right:7px;
+}
+
+p{
+  font-family: 'Helvetica', sans-serif;
+  color:black;
+  font-weight: bold;
+}
+
+.rectangle1{
+    width:240px;
+    height:400px;
+    background:#f4ac41;
+    position: relative;
+    animation-name: example1;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes example1 {
+  0%   {top:0px;}
+  50%  {top:200px;}
+  100% {top:0px;}
+}
+
+.rectangle2{
+  width:150px;
+  height:500px;
+  background:#f4ac41;
+  display: inline-block;
+  position: relative;
+  margin-left: 241px;
+  animation-name: example2;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes example2 {
+0%   {bottom:0px;}
+50%  {bottom:300px;}
+100% {bottom:0px;}
+}
+
+.rectangle3{
+  width:70px;
+  height:500px;
+  background:#f4ac41;
+  display: inline-block;
+  position: absolute;
+   margin-left: -2px;
+  animation-name: example3;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes example3 {
+0%   {top:0px;}
+50%  {top:100px;}
+100% {top:0px;}
+}
+
+.rectangle4{
+  width:40px;
+  height:500px;
+  background:#f4ac41;
+  display: inline-block;
+  position: relative;
+  margin-left: 69px;
+  animation-name: example4;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes example4 {
+0%   {bottom:0px;}
+50%  {bottom:100px;}
+100% {bottom:0px;}
+}
+
+.rectangle5{
+  width:20px;
+  height:500px;
+  background:#f4ac41;
+  display: inline-block;
+  position: relative;
+  margin-left: -2px;
+  animation-name: example5;
+  animation-duration: 9s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes example5 {
+0%   {bottom:0px;}
+50%  {bottom:400px;}
+100% {bottom:0px;}
+}
+
+main{
+  margin-left: 114px;
+  margin-top: 110px;
+  position: fixed;
+  z-index:2
+}
+
+html{
+  margin-left:10%;
+}

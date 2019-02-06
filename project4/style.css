@@ -1,0 +1,73 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+
+
+	body {
+	   background: url('back1.gif') repeat-y;
+		 overflow-x:hidden;
+	}
+
+	.custom {
+	  cursor: url(images/cursor.png), auto;
+	}
+
+
+@font-face {
+  font-family:"terminalg";
+  src: url(fonts/terminalg.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+
+p{
+  font-family: terminalg;
+  font-weight: 100;
+  font-size: 6em;
+	color:#9ACD32;
+  text-align: left;
+  padding-left: 2vw;
+}
+
+a{
+  color:blue;
+}
+
+p:hover, h1:hover, a:hover {
+color: #9ACD32;
+}
+
+@media screen and (min-width: 480px) {
+	body {
+		background-size: 100%;
+	}
+}
+
+@media screen and (min-width: 900px) {
+  div.text{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.text {
+    font-size: 8px;
+  }
+}
